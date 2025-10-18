@@ -54,6 +54,54 @@ a {
   z-index: 99999;
 }
 
+.side-bar {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--dark-green);
+  position: fixed;
+  top: 0;
+  right: -50%;
+  justify-content: left;
+  z-index: 1;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: 0.3s;
+}
+
+.side-bar a {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  color: var(--main);
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 30px;
+}
+
+.side-bar a:hover {
+  background: var(--green);
+}
+
+.side-bar i {
+  font-size: 20px;
+  width: 100%;
+  color: var(--main);
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-bar i:hover {
+  color: #ff0000;
+}
+
 .container .bar a {
   display: inline-block;
   font-size: 14px;
@@ -105,6 +153,9 @@ nav a:hover {
 
 nav a:hover i {
   transform: translateY(-5px);
+}
+nav .fa-bars {
+  display: none;
 }
 
 .hero {
@@ -710,9 +761,23 @@ nav a:hover i {
 }
 
 /* Responsive */
+
+/* ======================================================= */
+
 /* small phone */
 
 @media (min-width: 320px) and (max-width: 375px) {
+  nav .fa-bars {
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--black);
+  }
+
+  .side-bar a{
+    font-size: 14px;
+  }
+
   .container {
     width: 100%;
   }
@@ -984,6 +1049,13 @@ nav a:hover i {
 /* M phones */
 
 @media (min-width: 375px) and (max-width: 425px) {
+  nav .fa-bars {
+    display: block;
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--black);
+  }
+
   .container {
     width: 100%;
   }
@@ -1250,6 +1322,13 @@ nav a:hover i {
 /* L phones */
 
 @media (min-width: 425px) and (max-width: 768px) {
+  nav .fa-bars {
+    display: block;
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--black);
+  }
+
   .container {
     width: 100%;
   }
@@ -1533,6 +1612,13 @@ nav a:hover i {
 /* Tablets */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  nav .fa-bars {
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--black);
+  }
+
   .hero h1 {
     font-size: 70px;
   }
