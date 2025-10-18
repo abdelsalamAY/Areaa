@@ -713,6 +713,271 @@ nav a:hover i {
 /* small phone */
 
 @media (min-width: 320px) and (max-width: 375px) {
+  .container {
+    width: 100%;
+  }
+  .container .bar {
+    display: none;
+  }
+  nav {
+    padding: 0 20px;
+  }
+
+  nav h2 {
+    font-size: 20px;
+  }
+
+  nav a {
+    padding: 10px 13px 10px 13px;
+    font-size: 10px;
+  }
+
+  .hero {
+    height: 400px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero .green-div {
+    height: 180px;
+    width: 100%;
+  }
+  .hero .black {
+    width: 80%;
+    height: 250px;
+    padding: 5px 5px 0 5px;
+  }
+  .trasted div {
+    width: 100%;
+  }
+  .trasted div img {
+    width: 35px;
+  }
+  .benefits .area {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .benefits .bene {
+    font-size: 8px;
+    text-align: center;
+  }
+  .benefits h4 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .benefits .divs {
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .benefits .divs div {
+    height: 250px;
+    flex: 0 0 48%;
+  }
+  .benefits .divs div i {
+    font-size: 18px;
+  }
+
+  .benefits .divs div h6 {
+    font-size: 12px;
+  }
+
+  .benefits .divs div p {
+    font-size: 8px;
+  }
+
+  .big-pic {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .big-pic .content h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .big-pic .content .frist {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .big-pic .content .para div p {
+    font-size: 10px;
+    width: 250px;
+  }
+  .big-pic .pic {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .big-pic .pic img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  .why-choose .why-area small {
+    font-size: 10px;
+  }
+
+  .why-choose .why-area h4 {
+    font-size: 30px;
+  }
+
+  .why-choose .why-area p {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .why-choose .compare div h5 {
+    height: 100px;
+    font-size: 15px;
+  }
+
+  .why-choose .compare div.active h5 {
+    font-size: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .why-choose .compare div p {
+    font-size: 8px;
+    padding-left: 10px;
+  }
+
+  .why-choose .compare div p i {
+    font-size: 8px;
+    padding-right: 7px;
+  }
+
+  .quote {
+    /* width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 100px; */
+    flex-direction: column;
+  }
+
+  .quote .content q {
+    font-size: 20px;
+  }
+  .quote {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote .content,
+  .quote .pic {
+    flex: 1;
+  }
+
+  .quote .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 1px solid #6f6f6f61;
+    padding: 50px 10px 10px 40px;
+    height: 710px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote .content q {
+    font-size: 20px;
+  }
+
+  .quote .content p {
+    font-size: 14px;
+  }
+
+  .quote .content small {
+    font-size: 12px;
+    margin-top: -20px;
+  }
+
+  .quote .pic img {
+    height: 300px;
+  }
+
+  .map-suc {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+
+  .map-suc .map-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #6f6f6f61;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .map-suc .map-a h3 {
+    font-size: 18px;
+  }
+
+  .map-suc .map-a a {
+    padding: 12px 15px 12px 15px;
+    font-size: 8px;
+  }
+
+  .map-suc .divs {
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+
+  .map-suc .divs div {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .map-suc .divs div .num {
+    font-size: 80px;
+  }
+
+  .map-suc .divs div .head {
+    padding: 20px 0;
+    font-size: 18px;
+  }
+
+  .map-suc .divs div .para {
+    font-size: 12px;
+  }
+
+  .contact h2 {
+    font-size: 30px;
+  }
+
+  .contact p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .contact a {
+    font-size: 8px;
+    padding: 12px 100px 12px 100px;
+  }
+
+  .contact a i {
+    font-size: 6px;
+  }
 }
 
 /* M phones */
